@@ -12,8 +12,8 @@
         <span>No Service</span>
         <i class="fas fa-wifi"></i>
       </div>
-      <div class="status-bar__column">
-        <span>18:43</span>
+      <div class="status-bar__column js-clock">
+        <span class="js-clock__time">18:43</span>
       </div>
       <div class="status-bar__column">
         <span>110%</span>
@@ -59,6 +59,15 @@
           </div>
           <div class="settings__setting-column">Latest Version</div>
         </li>
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fas fa-sign-out-alt"></i>
+            <span class="js-logOut">
+              <a href="index.html">Log Out</a>
+            </span>
+          </div>
+          <div class="settings__setting-column"></div>
+        </li>
       </ul>
     </main>
 
@@ -96,5 +105,7 @@
       src="https://kit.fontawesome.com/6478f529f2.js"
       crossorigin="anonymous"
     ></script>
+    <script src="js/clock.js"></script>
+    <script src="js/logOut.js"></script>
   </body>
 </html>
