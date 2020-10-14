@@ -40,7 +40,6 @@
 
     <main class="main-screen main-chat">
       <div class="chat__timestamp">Tuesday, June 30, 2020</div>
-
       <div class="message-row">
         <img src="img/avatar.jpeg" alt="" />
         <div class="message-row__content">
@@ -51,7 +50,7 @@
           </div>
         </div>
       </div>
-      <div class="message-row message-row--own">
+      <div class="message-row--own">
         <div class="message-row__content">
           <div class="message__info">
             <span class="message__bubble">Hi nice to meet you!</span>
@@ -66,7 +65,11 @@
         <i class="far fa-plus-square fa-lg"></i>
       </div>
       <div class="reply__column">
-        <input type="text" placeholder="Write a message..." />
+        <input
+          class="reply-text"
+          type="text"
+          placeholder="Write a message..."
+        />
         <i class="far fa-smile-wink fa-lg"></i>
         <button>
           <i class="fas fa-arrow-up fa-lg"></i>
@@ -82,5 +85,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="js/clock.js"></script>
+    <script src="js/message.js"></script>
   </body>
 </html>
